@@ -1,0 +1,56 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# Biometric / personal data
+data/
+captures/
+enrollment/
+embeddings/
+*.npy
+
+# Runtime / evaluation logs
+logs/
+*.jsonl
+evaluation_results*.csv
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Development backups / temporary artifacts
+backups/
+archive/
+experiments/
+videos/
+*.backup-*
+
+
+
+# Generated evaluation outputs
+*_summary.csv
+*_evaluation.csv
+*_analysis.csv
+confusion_matrices.txt
+
+# External deepfake framework
+DeepfakeBench/
+
+# PAD example assets and generated files
+pad/face-anti-spoofing/assets/
+
+# Behaviour training data and model artifacts
+behaviour/datasets/
+behaviour/models/
+
+# Adaptive fusion runtime logs
+adaptive_fusion/*_log*
